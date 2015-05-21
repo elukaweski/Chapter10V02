@@ -1,0 +1,204 @@
+
+
+
+chapter 10
+
+
+build.xml	
+
+data	
+ Races.csv
+ 	
+lib	
+
+ ant-contrib-1.0b3.jar	
+ 
+ ant-salesforce.jar	
+ 
+ ant-salesforce.xml	
+ 
+LICENSE	
+README.md	
+src	
+
+ applications	
+  RaceAnalytics.app	
+  RaceManagement.app	
+ classes	
+  Application.cls	
+  Application.cls-meta.xml	
+  ApplicationUnitOfWork.cls	
+  ApplicationUnitOfWork.cls-meta.xml	
+  Cars.cls	
+  Cars.cls-meta.xml	
+  CarsSelector.cls	
+  CarsSelector.cls-meta.xml	
+  ComplianceController.cls	
+  ComplianceController.cls-meta.xml	
+  ComplianceResource.cls	
+  ComplianceResource.cls-meta.xml	
+  ComplianceResource_v1_0.cls	
+  ComplianceResource_v1_0.cls-meta.xml	
+  ComplianceService.cls	
+  ComplianceService.cls-meta.xml	
+  ComplianceServiceTest.cls	
+  ComplianceServiceTest.cls-meta.xml	
+  ContestantController.cls	
+  ContestantController.cls-meta.xml	
+  ContestantControllerTest.cls	
+  ContestantControllerTest.cls-meta.xml	
+  Contestants.cls	
+  Contestants.cls-meta.xml	
+  ContestantService.cls	
+  ContestantService.cls-meta.xml	
+  ContestantServiceTest.cls	
+  ContestantServiceTest.cls-meta.xml	
+  ContestantsSelector.cls	
+  ContestantsSelector.cls-meta.xml	
+  ContestantsTest.cls	
+  ContestantsTest.cls-meta.xml	
+  Drivers.cls	
+  Drivers.cls-meta.xml	
+  DriversSelector.cls	
+  DriversSelector.cls-meta.xml	
+  fflib_QueryFactory.cls	
+  fflib_QueryFactory.cls-meta.xml	
+  fflib_QueryFactoryTest.cls	
+  fflib_QueryFactoryTest.cls-meta.xml	
+  fflib_SecurityUtils.cls	
+  fflib_SecurityUtils.cls-meta.xml	
+  fflib_SecurityUtilsTest.cls	
+  fflib_SecurityUtilsTest.cls-meta.xml	
+  fflib_SObjectDescribe.cls	
+  fflib_SObjectDescribe.cls-meta.xml	
+  fflib_SObjectDescribeTest.cls	
+  fflib_SObjectDescribeTest.cls-meta.xml	
+  fflib_SObjectDomain.cls	
+  fflib_SObjectDomain.cls-meta.xml	
+  fflib_SObjectDomainTest.cls	
+  fflib_SObjectDomainTest.cls-meta.xml	
+  fflib_SObjectSelector.cls	
+  fflib_SObjectSelector.cls-meta.xml	
+  fflib_SObjectSelectorTest.cls	
+  fflib_SObjectSelectorTest.cls-meta.xml	
+  fflib_SObjectUnitOfWork.cls	
+  fflib_SObjectUnitOfWork.cls-meta.xml	
+  fflib_SObjectUnitOfWorkTest.cls	
+  fflib_SObjectUnitOfWorkTest.cls-meta.xml	
+  fflib_StringBuilder.cls	
+  fflib_StringBuilder.cls-meta.xml	
+  fflib_StringBuilderTest.cls	
+  fflib_StringBuilderTest.cls-meta.xml	
+  FLSDemoController.cls	
+  FLSDemoController.cls-meta.xml	
+  LogService.cls	
+  LogService.cls-meta.xml	
+  NotificationService.cls	
+  NotificationService.cls-meta.xml	
+  OutOfRaceController.cls	
+  OutOfRaceController.cls-meta.xml	
+  ProcessRaceDataJob.cls	
+  ProcessRaceDataJob.cls-meta.xml	
+  RaceAnalysisController.cls	
+  RaceAnalysisController.cls-meta.xml	
+  RaceController.cls	
+  RaceController.cls-meta.xml	
+  RaceControllerTest.cls	
+  RaceControllerTest.cls-meta.xml	
+  RaceDataSelector.cls	
+  RaceDataSelector.cls-meta.xml	
+  RaceResultsController.cls	
+  RaceResultsController.cls-meta.xml	
+  Races.cls	
+  Races.cls-meta.xml	
+  RaceService.cls	
+  RaceService.cls-meta.xml	
+  RaceServiceTest.cls	
+  RaceServiceTest.cls-meta.xml	
+  RacesSelector.cls	
+  RacesSelector.cls-meta.xml	
+  RaceSummaryController.cls	
+  RaceSummaryController.cls-meta.xml	
+  RaceSummaryControllerTest.cls	
+  RaceSummaryControllerTest.cls-meta.xml	
+  SeasonController.cls	
+  SeasonController.cls-meta.xml	
+  SeasonControllerTest.cls	
+  SeasonControllerTest.cls-meta.xml	
+  SeasonNewsletterScheduler.cls	
+  SeasonNewsletterScheduler.cls-meta.xml	
+  SeasonNewsletterSchedulerTest.cls	
+  SeasonNewsletterSchedulerTest.cls-meta.xml	
+  Seasons.cls	
+  Seasons.cls-meta.xml	
+  SeasonService.cls	
+  SeasonService.cls-meta.xml	
+  SeasonServiceTest.cls	
+  SeasonServiceTest.cls-meta.xml	
+  Teams.cls	
+  Teams.cls-meta.xml	
+  TeamsSelector.cls	
+  TeamsSelector.cls-meta.xml	
+  TestData.cls	
+  TestData.cls-meta.xml	
+ labels	
+  CustomLabels.labels	
+ layouts	
+  Car__c-Car Layout.layout	
+  Contestant__c-Contestant Layout.layout	
+  Driver__c-Driver Layout.layout	
+  Race__c-Race Layout.layout	
+  RaceData__c-Race Data Layout.layout	
+  Season__c-Season Layout.layout	
+  Team__c-Team Layout.layout	
+ objects	
+  Application__c.object	
+  Car__c.object	
+  ChampionshipPoints__c.object	
+  Contestant__c.object	
+  Driver__c.object	
+  Race__c.object	
+  RaceData__c.object	
+  Season__c.object	
+  Team__c.object	
+  TrackLapRecords__c.object	
+ package.xml	
+ pages	
+  compliancecar.page	
+  compliancecar.page-meta.xml	
+  compliancedriver.page	
+  compliancedriver.page-meta.xml	
+  complianceteam.page	
+  complianceteam.page-meta.xml	
+  flsdemo.page	
+  flsdemo.page-meta.xml	
+  outofrace.page	
+  outofrace.page-meta.xml	
+  raceanalysis.page	
+  raceanalysis.page-meta.xml	
+  racesummary.page	
+  racesummary.page-meta.xml	
+  racesummaryascsv.page	
+  racesummaryascsv.page-meta.xml	
+ permissionsets	
+  FormulaForceRaceAnalytics.permissionset	
+  FormulaForceRaceManagement.permissionset	
+  FormulaForceRaceManagementUpdateDNFStatus.permissionset	
+ quickActions	
+  Contestant__c.OutOfRace.quickAction	
+ tabs	
+  Car__c.tab	
+  Driver__c.tab	
+  Race__c.tab	
+  RaceData__c.tab	
+  Season__c.tab	
+  Team__c.tab	
+ triggers	
+  Contestants.trigger	
+  Contestants.trigger-meta.xml	
+  Drivers.trigger	
+  Drivers.trigger-meta.xml	
+  Races.trigger	
+  Races.trigger-meta.xml	
+  Seasons.trigger	
+  Seasons.trigger-meta.xml	
